@@ -1,0 +1,10 @@
+/app
+/lib
+/tmp
+/docs
+*diagram.png
+/typings
+/node_modules
+/.idea
+/.gulp*
+*.log

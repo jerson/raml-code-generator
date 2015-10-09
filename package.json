@@ -1,0 +1,40 @@
+{
+  "name": "code-generator",
+  "version": "1.0.0",
+  "description": "code generator from RAML files",
+  "main": "app/command/generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerson Alexander Pardo Gamez <jeral17@gmail.com>",
+  "license": "privative",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "folderify": "^1.0.2",
+    "include-folder": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "q": "^1.4.1",
+    "raml-parser": "^0.8.11",
+    "string": "^3.3.1",
+    "sugar": "^1.4.1",
+    "swig": "^1.4.2",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-shell": "^0.4.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-tsc": "^1.1.0",
+    "gulp-tsd": "0.0.4",
+    "gulp-typedoc": "^1.2.1",
+    "gulp-typescript": "^2.8.1",
+    "gulp-watch": "^4.3.4",
+    "merge2": "^0.3.6",
+    "run-sequence": "^1.1.2",
+    "typescript": "^1.6.0-dev",
+    "wavi": "^0.2.16"
+  }
+}
